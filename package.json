@@ -1,6 +1,6 @@
 {
   "name": "testpackage-hellonpm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Just testing npm packages",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,7 @@
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "format": "prettier --write src/**/*.ts src/**/*.js",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",

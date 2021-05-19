@@ -1,1 +1,1 @@
-export const helloNPM = (name: string) => `Hello ${name}`; 
+export const helloNPM = (name: string) => `Hello ${name}`;

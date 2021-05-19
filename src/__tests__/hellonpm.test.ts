@@ -1,4 +1,4 @@
 import { helloNPM } from '../index';
 test('My Greeter', () => {
-    expect(helloNPM('Carl')).toBe('Hello Carl');
+  expect(helloNPM('Carl')).toBe('Hello Carl');
 });
