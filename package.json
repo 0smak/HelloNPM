@@ -1,17 +1,22 @@
 {
-  "name": "testPackage",
+  "name": "testpackage-hellonpm",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Just testing npm packages",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare" : "npm run build",
+    "version" : "npm run format && git add -A src",
+    "postversion" : "git push && git push --tags"
+
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/0smak/HelloNPM.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["hello npm"],
+  "author": "osmak",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/0smak/HelloNPM/issues"
