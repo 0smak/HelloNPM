@@ -1,0 +1,23 @@
+{
+  "name": "testPackage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0smak/HelloNPM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0smak/HelloNPM/issues"
+  },
+  "homepage": "https://github.com/0smak/HelloNPM#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
